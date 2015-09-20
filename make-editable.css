@@ -1,0 +1,34 @@
+body {
+  margin: 4em 8em;
+  font-family: "Lucida Grande", Arial, Serif;
+  color: black;
+}
+
+.flow {
+    display: flex;
+}
+
+.flow .stretch {
+    flex: 1;
+}
+
+.edit-text {
+  border: solid black;
+  padding: 1em;
+}
+
+.turn-red {
+  color: red;
+}
+
+button {
+  display: inline-block;
+  margin: 1em auto;
+  height: 3em;
+  width: 10em;
+  background-color: #0099CC;
+  font-weight: bold;
+  color: white;
+  font-size: 16px;
+  padding: 0 0;
+}

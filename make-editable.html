@@ -1,0 +1,10 @@
+<body>
+  <div ng-transclude ng-init="turnEditOn=false"
+   ng-class="{'turn-red': turnEditOn}" contenteditable={{turnEditOn}}>
+  </div>
+  <div>
+    <button ng-click="turnEditOn=true" ng-show="!turnEditOn">Edit</button>
+    <button ng-click="turnEditOn=false" ng-show="turnEditOn">Save</button>
+  </div>
+
+</body>
